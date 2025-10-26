@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="org.openqa.selenium.SearchContext"><rhs name\="org.openqa.selenium.edge.EdgeDriver"/><rhs name\="org.openqa.selenium.chrome.ChromeDriver"/></lhs><lhs name\="org.openqa.selenium.WebDriver"><rhs name\="org.openqa.selenium.edge.EdgeDriver"/><rhs name\="org.openqa.selenium.chrome.ChromeDriver"/></lhs><lhs name\="org.openqa.selenium.support.ui.ISelect"><rhs name\="org.openqa.selenium.support.ui.Select"/></lhs><lhs name\="org.openqa.selenium.WrapsElement"><rhs name\="org.openqa.selenium.support.ui.Select"/></lhs><lhs name\="org.openqa.selenium.support.ui.Select"><rhs name\="org.openqa.selenium.support.ui.Select"/></lhs><lhs name\="java.time.temporal.Temporal"><rhs name\="java.time.Instant"/></lhs><lhs name\="java.time.temporal.TemporalAccessor"><rhs name\="java.time.Instant"/></lhs><lhs name\="java.time.temporal.TemporalAdjuster"><rhs name\="java.time.Instant"/></lhs><lhs name\="java.time.temporal.TemporalAmount"><rhs name\="java.time.Duration"/></lhs><lhs name\="org.openqa.selenium.interactions.Actions"><rhs name\="org.openqa.selenium.interactions.Actions"/></lhs><lhs name\="org.openqa.selenium.By"><rhs name\="org.openqa.selenium.By$ByName"/></lhs></history>
+content_assist_number_of_computers=19
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

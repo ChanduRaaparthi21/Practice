@@ -1,0 +1,130 @@
+package com.chandu.TestSelenium;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class TestSelenium {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+
+		WebDriverManager.edgedriver().setup();
+		
+		WebDriver driver = new EdgeDriver();
+		driver.get("https://www.hyrtutorials.com/p/html-dropdown-elements-practice.html");
+		Thread.sleep(3000);		
+		
+		//DropDowns
+		
+		WebElement courseElement = driver.findElement(By.id("course"));
+		
+		Select dropDown = new Select(courseElement);
+		
+		List<WebElement> dropDownOptions = dropDown.getOptions();
+		
+		for (WebElement options : dropDownOptions) {
+			
+			System.out.println(options.getText());
+		}
+		
+		dropDown.selectByIndex(1);
+		Thread.sleep(3000);		
+
+		dropDown.selectByValue("net");
+		Thread.sleep(3000);		
+
+		dropDown.selectByVisibleText("Python");
+		Thread.sleep(3000);		
+String selectedtext = dropDown.getFirstSelectedOption().getText();
+System.out.println("selectedText - "+selectedtext);
+		
+		
+		
+	
+		/*
+		// How to Handle Basic Html Controls
+		
+		driver.findElement(By.id("femalerb")).click();
+		Thread.sleep(3000);
+		driver.findElement(By.id("englishchbx")).click();
+		Thread.sleep(3000);
+		WebElement hindick =  driver.findElement(By.id("hindichbx"));
+		hindick.click(); //checkig
+		Thread.sleep(3000);
+		if(hindick.isSelected()) {
+			
+			hindick.click(); //unchecking
+		}
+		Thread.sleep(3000);
+		driver.findElement(By.id("registerbtn")).click();
+		Thread.sleep(3000);
+		System.out.println(driver.findElement(By.id("msg")).getText());
+		
+		Thread.sleep(3000);
+		driver.findElement(By.linkText("Click here to navigate to the home page")).click(); */
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+/*	
+ *     //  How to Handle TEXTBOX 
+ *       
+ * WebElement usernameText = driver.findElement(By.name("login"));
+		if(usernameText.isDisplayed()) {
+			
+			if(usernameText.isEnabled()) {
+				
+				usernameText.sendKeys("Chandu");
+				String enterdTExt = usernameText.getAttribute("value");
+				System.out.println(enterdTExt);
+				Thread.sleep(3000);
+				usernameText.clear();
+				
+			}
+			else {
+				System.err.println("userTextBox is not enabled");
+			}
+			
+		}
+		else {
+			System.err.println("userTextBox is not displayed");
+		} */
+	
+	}
+	/*	highlight(driver, driver.findElement(By.id("login_field"))); //mana html page lo id
+		Thread.sleep(3000);
+		highlight(driver, driver.findElement(By.name("password"))); //same as paina but ikkada name thhesukuntam
+		Thread.sleep(3000);
+		highlight(driver, driver.findElement(By.className("header-logo"))); //classname
+		Thread.sleep(3000);
+		highlight(driver, driver.findElement(By.linkText("Forgot password?"))); //mana page lo unde link lu ikkkada aa link ku sambandhinchina full text ivvali
+		Thread.sleep(3000);
+		highlight(driver, driver.findElement(By.partialLinkText("Create an"))); //same as above but text some isthe chalu
+		Thread.sleep(3000);
+		highlight(driver, driver.findElement(By.tagName("h1"))); //tags
+		Thread.sleep(3000);
+		highlight(driver, driver.findElement(By.xpath("//label[contains(text(),'Username or email address')]"))); //?
+		Thread.sleep(3000);
+		highlight(driver, driver.findElement(By.cssSelector("input[name='commit']")));		//?
+		
+		
+		
+	public static void highlight(WebDriver driver, WebElement element) {	
+	JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+	jsExecutor.executeScript("arguments[0].setAttribute('style', 'border:2px solid red; background:yellow')", element);	} */
+
+}

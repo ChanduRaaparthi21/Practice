@@ -1,0 +1,24 @@
+package com.chandu.practice1.Controller;
+
+public class HelloResponse {
+	
+	private String Message;
+	
+	
+
+	public HelloResponse(String hello) {
+		super();
+		Message = Message;
+	}
+
+	public String getHello() {
+		return Message;
+	}
+
+	public void setHello(String hello) {
+		Message = hello;
+	}
+	
+	
+
+}

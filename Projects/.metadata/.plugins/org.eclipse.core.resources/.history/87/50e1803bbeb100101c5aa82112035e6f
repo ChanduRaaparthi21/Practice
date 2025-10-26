@@ -1,0 +1,33 @@
+package com.chandu.practice1.Controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HomeController {
+	
+	@GetMapping("/")
+	public String Hello() {
+		return "Hi This is chandu";
+	}
+	
+	@PostMapping("Hello")
+	public String HelloName(@RequestBody String name) {
+		return "hello " + name +" !";
+	}
+	
+	@GetMapping("hello1")
+	public HelloResponse Hello1() {
+		return new HelloResponse("Hello1");
+	}
+	
+	
+	@PostMapping("Hello1")
+	public HelloResponse HelloName1(@RequestBody String name) {
+		return new HelloResponse("hello " + name +" !");
+	}
+	
+
+}
