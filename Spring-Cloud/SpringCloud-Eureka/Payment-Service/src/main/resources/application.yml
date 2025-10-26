@@ -1,0 +1,16 @@
+server:
+  port: 8888  # Change this based on your microservice port
+
+spring:
+  application:
+    name: PAYMENT-SERVICE  # Name of your microservice
+
+eureka:
+  client:
+    register-with-eureka: true  # Register this service with Eureka Server
+    fetch-registry: true  # Fetch registered services from Eureka Server
+    service-url:
+      defaultZone: http://localhost:8761/eureka/  # Eureka Server URL
+
+  instance:
+   hostname: localhost

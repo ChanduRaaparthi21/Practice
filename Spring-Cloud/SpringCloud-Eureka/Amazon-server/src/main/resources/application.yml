@@ -1,0 +1,11 @@
+server:
+  port: 8761  # Eureka server runs on port 8761
+
+spring:
+  application:
+    name: AMAZON-SERVER
+
+eureka:
+  client:
+    register-with-eureka: false  # Eureka server does not register itself
+    fetch-registry: false  # Eureka server does not need to fetch registry
