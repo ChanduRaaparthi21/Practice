@@ -1,0 +1,13 @@
+### CREATE A PATIENT
+POST http://localhost:4000/patients/add
+Content-Type: application/json
+
+{
+  "name": "Chandy Doe with billing account",
+  "email": "chandu@example.com",
+  "address": "123 Main Street, New York, NY",
+  "dateOfBirth": "1990-05-15",
+  "registeredDate": "2025-03-14"
+}
+
+###

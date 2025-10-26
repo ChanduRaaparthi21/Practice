@@ -1,0 +1,105 @@
+spring:
+  application:
+    name: GATEWAY-SERVICE
+
+  cloud:
+    gateway:
+      routes:
+        - id: order-service
+          uri: lb://ORDER-SERVICE
+          predicates:
+            - Path=/order/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: order-service
+                fallbackUri: forward:/orderFallback
+            - name: Retry
+              args:
+                retries: 3
+                backoff:
+                  firstBackoff: 100ms
+                  maxBackoff: 1000ms
+
+        - id: payment-service
+          uri: lb://PAYMENT-SERVICE
+          predicates:
+            - Path=/payment/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: payment-service
+                fallbackUri: forward:/paymentFallback
+            - name: Retry
+              args:
+                retries: 3
+                backoff:
+                  firstBackoff: 100ms
+                  maxBackoff: 1000ms
+
+        - id: inventory-service
+          uri: lb://INVENTORY-SERVICE
+          predicates:
+            - Path=/inventory/**
+          filters:
+            - name: CircuitBreaker
+              args:
+                name: inventory-service
+                fallbackUri: forward:/inventoryFallback
+            - name: Retry
+              args:
+                retries: 3
+                backoff:
+                  firstBackoff: 100ms
+                  maxBackoff: 1000ms
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+
+server:
+  port: 8989
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  metrics:
+    enable:
+      resilience4j.circuitbreaker: true
+      resilience4j.retry: true
+      resilience4j.bulkhead: true
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      order-service:
+        failureRateThreshold: 50
+        waitDurationInOpenState: 5000ms
+        permittedNumberOfCallsInHalfOpenState: 2
+        slidingWindowSize: 10
+      payment-service:
+        failureRateThreshold: 50
+        waitDurationInOpenState: 5000ms
+        permittedNumberOfCallsInHalfOpenState: 2
+        slidingWindowSize: 10
+      inventory-service:
+        failureRateThreshold: 50
+        waitDurationInOpenState: 5000ms
+        permittedNumberOfCallsInHalfOpenState: 2
+        slidingWindowSize: 10
+
+  timelimiter:
+    instances:
+      order-service:
+        timeoutDuration: 5s
+      payment-service:
+        timeoutDuration: 5s
+      inventory-service:
+        timeoutDuration: 5s
