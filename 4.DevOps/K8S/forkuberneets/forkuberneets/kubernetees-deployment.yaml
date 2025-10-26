@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: forkubernetes
+
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: forkubernetes
+  template:
+    metadata:
+      labels:
+        app: forkubernetes
+    spec:
+      containers:
+        - name: forkubernetes
+          image: forkubernets:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8080

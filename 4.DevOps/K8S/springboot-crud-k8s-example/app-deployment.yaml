@@ -1,0 +1,59 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: springboot-crud-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: springboot-k8s-postgres
+  template:
+    metadata:
+      labels:
+        app: springboot-k8s-postgres
+    spec:
+      containers:
+        - name: springboot-k8s-postgres
+          image: springboot-crud-k8s-example:1.0 # Replace with your Docker image
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080
+          env:
+            - name: APP_NAME
+              value: "springboot-crud-k8s-example"
+            - name: DB_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: db-config
+                  key: host
+            - name: DB_NAME
+              valueFrom:
+                configMapKeyRef:
+                  name: db-config
+                  key: dbName
+            - name: DB_PORT
+              value: "5432"
+            - name: DB_USERNAME
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-secrets
+                  key: username
+            - name: DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: postgres-secrets
+                  key: password
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: springboot-crud-service
+spec:
+  selector:
+    app: springboot-k8s-postgres # Matches the app label from Deployment
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+  type: NodePort

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: forkubernetes-service
+spec:
+  selector:
+    app: forkubernetes  # Make sure this matches your deployment's label
+  ports:
+    - protocol: "TCP"
+      port: 8080          # The port the service will expose
+      targetPort: 8080  # The port your container is running on
+  type: NodePort

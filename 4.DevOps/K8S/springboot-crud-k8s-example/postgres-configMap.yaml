@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: db-config
+data:
+  host: "postgres-service.default.svc.cluster.local"
+  dbName: "fork8s"
