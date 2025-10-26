@@ -1,0 +1,46 @@
+<web-app>
+
+     <servlet>
+     
+       <servlet-name>hlo</servlet-name>
+       <servlet-class>SayHello</servlet-class>
+
+       <init-param>
+      <param-name>nm</param-name>
+      <param-value>chandu</param-value>
+       </init-param>
+
+     </servlet>
+
+     <servlet-mapping>  
+               <servlet-name>hlo</servlet-name>
+               <url-pattern>/hello</url-pattern>
+     </servlet-mapping>
+
+
+
+       <servlet>
+            <servlet-name>hi</servlet-name>
+            <servlet-class>SayHai</servlet-class>
+     </servlet>
+
+     <servlet-mapping>  
+               <servlet-name>hi</servlet-name>
+               <url-pattern>/hai</url-pattern>    
+     </servlet-mapping>
+
+
+
+
+  <servlet>
+         <servlet-name>wel</servlet-name>
+         <servlet-class>SayWelcome</servlet-class>
+     </servlet>
+
+     <servlet-mapping>  
+               <servlet-name>wel</servlet-name>
+               <url-pattern>/welcome</url-pattern>  
+     </servlet-mapping>
+
+
+</web-app>

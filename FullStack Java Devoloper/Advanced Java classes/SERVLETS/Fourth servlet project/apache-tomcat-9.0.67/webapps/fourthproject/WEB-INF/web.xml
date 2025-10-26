@@ -1,0 +1,13 @@
+<web-app>
+<servlet>
+        <servlet-name>spl</servlet-name>
+        <servlet-class>parts</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+        <servlet-name>spl</servlet-name>
+        <url-pattern>/submitpart</url-pattern>
+</servlet-mapping>
+
+</web-app>

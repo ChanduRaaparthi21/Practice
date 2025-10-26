@@ -1,0 +1,92 @@
+09-Oct-2022 18:22:08.761 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.67
+09-Oct-2022 18:22:08.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 23 2022 11:22:29 UTC
+09-Oct-2022 18:22:08.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.67.0
+09-Oct-2022 18:22:08.770 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Oct-2022 18:22:08.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Oct-2022 18:22:08.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Oct-2022 18:22:08.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+09-Oct-2022 18:22:08.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19+36-2238
+09-Oct-2022 18:22:08.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Oct-2022 18:22:08.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67
+09-Oct-2022 18:22:08.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67
+09-Oct-2022 18:22:08.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Oct-2022 18:22:08.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Oct-2022 18:22:08.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Oct-2022 18:22:08.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Oct-2022 18:22:08.799 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Oct-2022 18:22:08.801 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\conf\logging.properties
+09-Oct-2022 18:22:08.802 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Oct-2022 18:22:08.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Oct-2022 18:22:08.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Oct-2022 18:22:08.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Oct-2022 18:22:08.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67
+09-Oct-2022 18:22:08.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67
+09-Oct-2022 18:22:08.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\temp
+09-Oct-2022 18:22:08.859 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+09-Oct-2022 18:22:08.859 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+09-Oct-2022 18:22:08.860 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-Oct-2022 18:22:08.870 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+09-Oct-2022 18:22:09.454 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Oct-2022 18:22:09.501 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1081] milliseconds
+09-Oct-2022 18:22:09.572 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Oct-2022 18:22:09.573 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.67]
+09-Oct-2022 18:22:09.592 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\coustomtags]
+09-Oct-2022 18:22:10.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\coustomtags] has finished in [719] ms
+09-Oct-2022 18:22:10.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\docs]
+09-Oct-2022 18:22:10.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\docs] has finished in [98] ms
+09-Oct-2022 18:22:10.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\examples]
+09-Oct-2022 18:22:11.727 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\examples] has finished in [1,315] ms
+09-Oct-2022 18:22:11.727 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\host-manager]
+09-Oct-2022 18:22:11.823 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\host-manager] has finished in [96] ms
+09-Oct-2022 18:22:11.826 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\manager]
+09-Oct-2022 18:22:11.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\manager] has finished in [107] ms
+09-Oct-2022 18:22:11.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\ROOT]
+09-Oct-2022 18:22:12.004 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\ROOT] has finished in [71] ms
+09-Oct-2022 18:22:12.010 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Oct-2022 18:22:12.121 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2617] milliseconds
+09-Oct-2022 18:53:39.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.67
+09-Oct-2022 18:53:39.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 23 2022 11:22:29 UTC
+09-Oct-2022 18:53:39.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.67.0
+09-Oct-2022 18:53:39.523 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Oct-2022 18:53:39.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Oct-2022 18:53:39.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Oct-2022 18:53:39.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+09-Oct-2022 18:53:39.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19+36-2238
+09-Oct-2022 18:53:39.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Oct-2022 18:53:39.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67
+09-Oct-2022 18:53:39.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67
+09-Oct-2022 18:53:39.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Oct-2022 18:53:39.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Oct-2022 18:53:39.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Oct-2022 18:53:39.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Oct-2022 18:53:39.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Oct-2022 18:53:39.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\conf\logging.properties
+09-Oct-2022 18:53:39.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Oct-2022 18:53:39.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Oct-2022 18:53:39.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Oct-2022 18:53:39.557 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Oct-2022 18:53:39.558 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67
+09-Oct-2022 18:53:39.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67
+09-Oct-2022 18:53:39.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\temp
+09-Oct-2022 18:53:39.560 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+09-Oct-2022 18:53:39.560 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+09-Oct-2022 18:53:39.574 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-Oct-2022 18:53:39.576 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+09-Oct-2022 18:53:40.170 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Oct-2022 18:53:40.215 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1072] milliseconds
+09-Oct-2022 18:53:40.292 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Oct-2022 18:53:40.292 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.67]
+09-Oct-2022 18:53:40.314 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\coustomtags]
+09-Oct-2022 18:53:40.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\coustomtags] has finished in [672] ms
+09-Oct-2022 18:53:40.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\docs]
+09-Oct-2022 18:53:41.103 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\docs] has finished in [116] ms
+09-Oct-2022 18:53:41.104 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\examples]
+09-Oct-2022 18:53:42.107 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\examples] has finished in [1,004] ms
+09-Oct-2022 18:53:42.107 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\host-manager]
+09-Oct-2022 18:53:42.217 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\host-manager] has finished in [110] ms
+09-Oct-2022 18:53:42.217 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\manager]
+09-Oct-2022 18:53:42.311 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\manager] has finished in [94] ms
+09-Oct-2022 18:53:42.311 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\ROOT]
+09-Oct-2022 18:53:42.391 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\JSP(java server pages)\JSP Coustom tags\apache-tomcat-9.0.67\webapps\ROOT] has finished in [80] ms
+09-Oct-2022 18:53:42.391 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Oct-2022 18:53:42.504 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2288] milliseconds

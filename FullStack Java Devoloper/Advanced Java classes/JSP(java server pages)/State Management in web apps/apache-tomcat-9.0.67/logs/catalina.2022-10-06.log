@@ -1,0 +1,682 @@
+06-Oct-2022 17:27:03.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.67
+06-Oct-2022 17:27:03.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 23 2022 11:22:29 UTC
+06-Oct-2022 17:27:03.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.67.0
+06-Oct-2022 17:27:03.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Oct-2022 17:27:03.612 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Oct-2022 17:27:03.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Oct-2022 17:27:03.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+06-Oct-2022 17:27:03.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19+36-2238
+06-Oct-2022 17:27:03.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Oct-2022 17:27:03.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 17:27:03.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 17:27:03.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Oct-2022 17:27:03.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Oct-2022 17:27:03.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Oct-2022 17:27:03.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Oct-2022 17:27:03.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Oct-2022 17:27:03.640 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\conf\logging.properties
+06-Oct-2022 17:27:03.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Oct-2022 17:27:03.642 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Oct-2022 17:27:03.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Oct-2022 17:27:03.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Oct-2022 17:27:03.647 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 17:27:03.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 17:27:03.648 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\temp
+06-Oct-2022 17:27:03.663 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+06-Oct-2022 17:27:03.664 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-Oct-2022 17:27:03.666 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-Oct-2022 17:27:03.666 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+06-Oct-2022 17:27:04.283 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Oct-2022 17:27:04.317 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1104] milliseconds
+06-Oct-2022 17:27:04.396 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Oct-2022 17:27:04.396 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.67]
+06-Oct-2022 17:27:04.413 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\docs]
+06-Oct-2022 17:27:05.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\docs] has finished in [599] ms
+06-Oct-2022 17:27:05.012 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\examples]
+06-Oct-2022 17:27:05.931 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\examples] has finished in [919] ms
+06-Oct-2022 17:27:05.931 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\host-manager]
+06-Oct-2022 17:27:06.032 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\host-manager] has finished in [101] ms
+06-Oct-2022 17:27:06.032 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\manager]
+06-Oct-2022 17:27:06.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\manager] has finished in [89] ms
+06-Oct-2022 17:27:06.121 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\ROOT]
+06-Oct-2022 17:27:06.200 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\ROOT] has finished in [79] ms
+06-Oct-2022 17:27:06.269 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Oct-2022 17:27:06.374 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2047] milliseconds
+06-Oct-2022 17:29:05.011 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.67
+06-Oct-2022 17:29:05.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 23 2022 11:22:29 UTC
+06-Oct-2022 17:29:05.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.67.0
+06-Oct-2022 17:29:05.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Oct-2022 17:29:05.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Oct-2022 17:29:05.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Oct-2022 17:29:05.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+06-Oct-2022 17:29:05.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19+36-2238
+06-Oct-2022 17:29:05.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Oct-2022 17:29:05.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 17:29:05.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 17:29:05.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Oct-2022 17:29:05.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Oct-2022 17:29:05.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Oct-2022 17:29:05.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Oct-2022 17:29:05.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Oct-2022 17:29:05.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\conf\logging.properties
+06-Oct-2022 17:29:05.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Oct-2022 17:29:05.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Oct-2022 17:29:05.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Oct-2022 17:29:05.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Oct-2022 17:29:05.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 17:29:05.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 17:29:05.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\temp
+06-Oct-2022 17:29:05.062 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+06-Oct-2022 17:29:05.062 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-Oct-2022 17:29:05.072 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-Oct-2022 17:29:05.079 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+06-Oct-2022 17:29:05.640 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Oct-2022 17:29:05.681 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1034] milliseconds
+06-Oct-2022 17:29:05.750 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Oct-2022 17:29:05.750 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.67]
+06-Oct-2022 17:29:05.762 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\docs]
+06-Oct-2022 17:29:06.354 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\docs] has finished in [592] ms
+06-Oct-2022 17:29:06.354 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\examples]
+06-Oct-2022 17:29:07.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\examples] has finished in [951] ms
+06-Oct-2022 17:29:07.305 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\host-manager]
+06-Oct-2022 17:29:07.402 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\host-manager] has finished in [97] ms
+06-Oct-2022 17:29:07.402 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\manager]
+06-Oct-2022 17:29:07.498 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\manager] has finished in [96] ms
+06-Oct-2022 17:29:07.498 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\ROOT]
+06-Oct-2022 17:29:07.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\ROOT] has finished in [58] ms
+06-Oct-2022 17:29:07.563 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Oct-2022 17:29:07.654 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1975] milliseconds
+06-Oct-2022 18:13:28.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.67
+06-Oct-2022 18:13:28.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 23 2022 11:22:29 UTC
+06-Oct-2022 18:13:28.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.67.0
+06-Oct-2022 18:13:28.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Oct-2022 18:13:28.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Oct-2022 18:13:28.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Oct-2022 18:13:28.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+06-Oct-2022 18:13:28.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19+36-2238
+06-Oct-2022 18:13:28.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Oct-2022 18:13:28.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 18:13:28.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 18:13:28.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Oct-2022 18:13:28.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Oct-2022 18:13:28.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Oct-2022 18:13:28.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Oct-2022 18:13:28.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Oct-2022 18:13:28.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\conf\logging.properties
+06-Oct-2022 18:13:28.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Oct-2022 18:13:28.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Oct-2022 18:13:28.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Oct-2022 18:13:28.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Oct-2022 18:13:28.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 18:13:28.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 18:13:28.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\temp
+06-Oct-2022 18:13:28.854 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+06-Oct-2022 18:13:28.854 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-Oct-2022 18:13:28.854 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-Oct-2022 18:13:28.860 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+06-Oct-2022 18:13:29.083 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Oct-2022 18:13:29.103 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [411] milliseconds
+06-Oct-2022 18:13:29.153 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Oct-2022 18:13:29.153 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.67]
+06-Oct-2022 18:13:29.160 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\docs]
+06-Oct-2022 18:13:29.430 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\docs] has finished in [270] ms
+06-Oct-2022 18:13:29.431 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\examples]
+06-Oct-2022 18:13:29.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\examples] has finished in [413] ms
+06-Oct-2022 18:13:29.844 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\host-manager]
+06-Oct-2022 18:13:29.887 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\host-manager] has finished in [42] ms
+06-Oct-2022 18:13:29.887 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\manager]
+06-Oct-2022 18:13:29.914 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\manager] has finished in [27] ms
+06-Oct-2022 18:13:29.914 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\myproject]
+06-Oct-2022 18:13:29.945 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\myproject]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1185)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1933)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1095)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:477)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myproject]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [fs] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3234)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5136)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 36 more
+06-Oct-2022 18:13:29.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\myproject] has finished in [34] ms
+06-Oct-2022 18:13:29.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\ROOT]
+06-Oct-2022 18:13:29.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\ROOT] has finished in [21] ms
+06-Oct-2022 18:13:29.976 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Oct-2022 18:13:30.020 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [914] milliseconds
+06-Oct-2022 18:17:10.266 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/myproject]
+06-Oct-2022 18:17:10.309 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Error during context [/myproject] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myproject]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1452)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [fs] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3234)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5136)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 16 more
+06-Oct-2022 18:17:20.316 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/myproject]
+06-Oct-2022 18:17:20.351 SEVERE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Error during context [/myproject] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myproject]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1452)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [fs] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3234)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5136)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 16 more
+06-Oct-2022 18:17:30.367 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/myproject]
+06-Oct-2022 18:17:30.402 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Error during context [/myproject] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myproject]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1452)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [fs] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3234)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5136)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 16 more
+06-Oct-2022 18:17:40.421 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/myproject]
+06-Oct-2022 18:17:40.450 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Error during context [/myproject] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myproject]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1452)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [fs] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3234)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5136)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 16 more
+06-Oct-2022 18:17:50.460 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/myproject]
+06-Oct-2022 18:17:50.489 SEVERE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Error during context [/myproject] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myproject]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1452)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [fs] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3234)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5136)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 16 more
+06-Oct-2022 18:18:00.501 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/myproject]
+06-Oct-2022 18:18:00.516 SEVERE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Error during context [/myproject] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myproject]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1452)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [fs] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3234)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5136)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 16 more
+06-Oct-2022 18:18:30.565 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Reloading context [/myproject]
+06-Oct-2022 18:18:30.581 SEVERE [Catalina-utility-1] org.apache.catalina.startup.HostConfig.reload Error during context [/myproject] restart
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myproject]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1452)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:1589)
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [fs] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3234)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5136)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 16 more
+06-Oct-2022 18:20:39.412 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /myproject/fs HTTP/1.1] received
+06-Oct-2022 18:20:40.441 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /myproject/fs HTTP/1.1] received
+06-Oct-2022 18:20:40.747 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /myproject/fs HTTP/1.1] received
+06-Oct-2022 18:20:41.769 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /myproject/fs HTTP/1.1] received
+06-Oct-2022 18:20:42.071 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /myproject/fs HTTP/1.1] received
+06-Oct-2022 18:20:47.088 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /myproject/fs HTTP/1.1] received
+06-Oct-2022 18:20:47.396 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [GET /myproject/fs HTTP/1.1] received
+06-Oct-2022 18:20:57.666 WARNING [main] org.apache.catalina.core.StandardServer.await An IO exception occurred trying to read the shutdown command
+	java.net.SocketTimeoutException: Read timed out
+		at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:273)
+		at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:299)
+		at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:340)
+		at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:789)
+		at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1025)
+		at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1019)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:637)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+06-Oct-2022 18:20:57.666 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+06-Oct-2022 19:51:00.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.67
+06-Oct-2022 19:51:00.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 23 2022 11:22:29 UTC
+06-Oct-2022 19:51:00.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.67.0
+06-Oct-2022 19:51:00.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Oct-2022 19:51:00.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Oct-2022 19:51:00.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Oct-2022 19:51:00.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+06-Oct-2022 19:51:00.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19+36-2238
+06-Oct-2022 19:51:00.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Oct-2022 19:51:00.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 19:51:00.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 19:51:00.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Oct-2022 19:51:00.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Oct-2022 19:51:00.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Oct-2022 19:51:00.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Oct-2022 19:51:00.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Oct-2022 19:51:00.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\conf\logging.properties
+06-Oct-2022 19:51:00.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Oct-2022 19:51:00.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Oct-2022 19:51:00.872 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Oct-2022 19:51:00.884 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Oct-2022 19:51:00.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 19:51:00.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 19:51:00.889 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\temp
+06-Oct-2022 19:51:00.898 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+06-Oct-2022 19:51:00.899 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-Oct-2022 19:51:00.899 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-Oct-2022 19:51:00.917 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+06-Oct-2022 19:51:01.491 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Oct-2022 19:51:01.527 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1071] milliseconds
+06-Oct-2022 19:51:01.612 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Oct-2022 19:51:01.612 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.67]
+06-Oct-2022 19:51:01.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\docs]
+06-Oct-2022 19:51:02.225 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\docs] has finished in [586] ms
+06-Oct-2022 19:51:02.225 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\examples]
+06-Oct-2022 19:51:03.202 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\examples] has finished in [977] ms
+06-Oct-2022 19:51:03.206 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\host-manager]
+06-Oct-2022 19:51:03.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\host-manager] has finished in [117] ms
+06-Oct-2022 19:51:03.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\manager]
+06-Oct-2022 19:51:03.415 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\manager] has finished in [94] ms
+06-Oct-2022 19:51:03.415 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\myproject]
+06-Oct-2022 19:51:03.466 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\myproject]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1185)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1933)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1095)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:477)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myproject]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [fs] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3234)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5136)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 36 more
+06-Oct-2022 19:51:03.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\myproject] has finished in [55] ms
+06-Oct-2022 19:51:03.470 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\ROOT]
+06-Oct-2022 19:51:03.521 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\ROOT] has finished in [51] ms
+06-Oct-2022 19:51:03.526 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Oct-2022 19:51:03.626 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2089] milliseconds
+06-Oct-2022 19:58:54.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.67
+06-Oct-2022 19:58:54.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 23 2022 11:22:29 UTC
+06-Oct-2022 19:58:54.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.67.0
+06-Oct-2022 19:58:54.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Oct-2022 19:58:54.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Oct-2022 19:58:54.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Oct-2022 19:58:54.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+06-Oct-2022 19:58:54.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19+36-2238
+06-Oct-2022 19:58:54.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Oct-2022 19:58:54.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 19:58:54.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 19:58:54.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Oct-2022 19:58:54.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Oct-2022 19:58:54.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Oct-2022 19:58:54.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Oct-2022 19:58:54.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Oct-2022 19:58:54.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\conf\logging.properties
+06-Oct-2022 19:58:54.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Oct-2022 19:58:54.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Oct-2022 19:58:54.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Oct-2022 19:58:54.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Oct-2022 19:58:54.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 19:58:54.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 19:58:54.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\temp
+06-Oct-2022 19:58:54.258 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+06-Oct-2022 19:58:54.258 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-Oct-2022 19:58:54.260 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-Oct-2022 19:58:54.267 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+06-Oct-2022 19:58:54.848 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Oct-2022 19:58:54.896 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1039] milliseconds
+06-Oct-2022 19:58:54.968 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Oct-2022 19:58:54.968 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.67]
+06-Oct-2022 19:58:54.987 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\docs]
+06-Oct-2022 19:58:55.595 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\docs] has finished in [602] ms
+06-Oct-2022 19:58:55.596 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\examples]
+06-Oct-2022 19:58:56.510 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\examples] has finished in [914] ms
+06-Oct-2022 19:58:56.510 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\host-manager]
+06-Oct-2022 19:58:56.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\host-manager] has finished in [99] ms
+06-Oct-2022 19:58:56.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\manager]
+06-Oct-2022 19:58:56.713 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\manager] has finished in [104] ms
+06-Oct-2022 19:58:56.713 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\myproject]
+06-Oct-2022 19:58:56.764 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\myproject]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1185)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1933)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1095)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:477)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1618)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:319)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:946)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1396)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1386)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:919)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:432)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/myproject]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [fs] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3234)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5136)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 36 more
+06-Oct-2022 19:58:56.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\myproject] has finished in [60] ms
+06-Oct-2022 19:58:56.773 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\ROOT]
+06-Oct-2022 19:58:56.821 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\ROOT] has finished in [48] ms
+06-Oct-2022 19:58:56.832 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Oct-2022 19:58:56.927 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2033] milliseconds
+06-Oct-2022 20:02:27.177 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/myproject]
+06-Oct-2022 20:04:44.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.67
+06-Oct-2022 20:04:44.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 23 2022 11:22:29 UTC
+06-Oct-2022 20:04:44.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.67.0
+06-Oct-2022 20:04:44.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+06-Oct-2022 20:04:44.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+06-Oct-2022 20:04:44.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Oct-2022 20:04:44.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-19
+06-Oct-2022 20:04:44.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           19+36-2238
+06-Oct-2022 20:04:44.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Oct-2022 20:04:44.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 20:04:44.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 20:04:44.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Oct-2022 20:04:44.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Oct-2022 20:04:44.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Oct-2022 20:04:44.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Oct-2022 20:04:44.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Oct-2022 20:04:44.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\conf\logging.properties
+06-Oct-2022 20:04:44.521 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Oct-2022 20:04:44.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Oct-2022 20:04:44.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Oct-2022 20:04:44.536 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+06-Oct-2022 20:04:44.537 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 20:04:44.538 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67
+06-Oct-2022 20:04:44.539 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\temp
+06-Oct-2022 20:04:44.586 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+06-Oct-2022 20:04:44.587 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+06-Oct-2022 20:04:44.588 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+06-Oct-2022 20:04:44.597 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+06-Oct-2022 20:04:45.192 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Oct-2022 20:04:45.240 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1091] milliseconds
+06-Oct-2022 20:04:45.311 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Oct-2022 20:04:45.311 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.67]
+06-Oct-2022 20:04:45.326 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\docs]
+06-Oct-2022 20:04:45.908 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\docs] has finished in [582] ms
+06-Oct-2022 20:04:45.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\examples]
+06-Oct-2022 20:04:47.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\examples] has finished in [1,243] ms
+06-Oct-2022 20:04:47.155 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\host-manager]
+06-Oct-2022 20:04:47.266 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\host-manager] has finished in [111] ms
+06-Oct-2022 20:04:47.266 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\manager]
+06-Oct-2022 20:04:47.358 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\manager] has finished in [92] ms
+06-Oct-2022 20:04:47.361 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\myproject]
+06-Oct-2022 20:04:47.449 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\myproject] has finished in [91] ms
+06-Oct-2022 20:04:47.450 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\ROOT]
+06-Oct-2022 20:04:47.496 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\FullStack Java Devoloper\Advanced Java classes\apache-tomcat-9.0.67\webapps\ROOT] has finished in [46] ms
+06-Oct-2022 20:04:47.510 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Oct-2022 20:04:47.608 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2365] milliseconds

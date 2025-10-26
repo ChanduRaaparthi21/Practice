@@ -1,0 +1,11 @@
+<taglib>
+<tlib-version>1.0</tlib-version>
+<jsp-veriosn>2.0</jsp-veriosn>
+<short-name>Example TLD</short-name>
+
+<tag>
+<name>HELLO</name>
+<tag-class>rcd.TestMe</tag-class>
+<body-content>empty</body-content>
+</tag>
+</taglib>
