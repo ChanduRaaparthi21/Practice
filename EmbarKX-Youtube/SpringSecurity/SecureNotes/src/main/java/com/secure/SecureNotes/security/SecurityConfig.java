@@ -19,8 +19,10 @@ public class SecurityConfig {
 		
 		httpSecurity.authorizeHttpRequests(request->request
 				.requestMatchers("/welcome").permitAll()
+				.requestMatchers("/public/**").permitAll()
 				.anyRequest().authenticated());
 //		httpSecurity.formLogin(withDefaults());
+		httpSecurity.csrf(csrf->csrf.disable());
 		httpSecurity.sessionManagement(session ->
 		session.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
 		httpSecurity.httpBasic(withDefaults());

@@ -12,4 +12,11 @@ public class HelloController {
 		return "Hello";
 	}
 	
+	
+	@GetMapping("welcome")
+	public String welcomeMessage() {
+		
+		return "Welcome to Spring Security";
+	}
+	
 }
