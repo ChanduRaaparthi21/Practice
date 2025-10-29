@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="4.DevOps/AWS/springboot_dynamodb1/src/main/java"/>
+	<classpathentry kind="src" path="4.DevOps/AWS/springboot_dynamodb1/src/test/java"/>
+	<classpathentry kind="src" path="4.DevOps/AWS/springboot-aws-ec2/src/main/java"/>
+	<classpathentry kind="src" path="4.DevOps/AWS/springboot-aws-ec2/src/test/java"/>
+	<classpathentry kind="src" path="4.DevOps/AWS/springboot-aws-rds/src/main/java"/>
+	<classpathentry kind="src" path="4.DevOps/AWS/springboot-aws-rds/src/test/java"/>
+	<classpathentry kind="src" path="4.DevOps/AWS/springboot-docker-aws-ecs/src/main/java"/>
+	<classpathentry kind="src" path="4.DevOps/AWS/springboot-docker-aws-ecs/src/test/java"/>
+	<classpathentry kind="src" path="4.DevOps/AWS/springboot-docker-aws-ecs-codebuild/src/main/java"/>
+	<classpathentry kind="src" path="4.DevOps/AWS/springboot-docker-aws-ecs-codebuild/src/test/java"/>
+	<classpathentry kind="src" path="4.DevOps/Docker/RoomMates/src/main/java"/>
+	<classpathentry kind="src" path="4.DevOps/Docker/RoomMates/src/test/java"/>
+	<classpathentry kind="src" path="4.DevOps/K8S/forkuberneets/forkuberneets/src/main/java"/>
+	<classpathentry kind="src" path="4.DevOps/K8S/forkuberneets/forkuberneets/src/test/java"/>
+	<classpathentry kind="src" path="4.DevOps/K8S/springboot-crud-k8s-example/src/main/java"/>
+	<classpathentry kind="src" path="4.DevOps/K8S/springboot-crud-k8s-example/src/test/java"/>
+	<classpathentry kind="src" path="DBSLoadApp/src/main/java"/>
+	<classpathentry kind="src" path="DBSLoadApp/src/test/java"/>
+	<classpathentry kind="src" path="DSA/src/main/java"/>
+	<classpathentry kind="src" path="EmbarKX-Youtube/SpringSecurity/SecureNotes/src/main/java"/>
+	<classpathentry kind="src" path="EmbarKX-Youtube/SpringSecurity/SecureNotes/src/test/java"/>
+	<classpathentry excluding="another injection query/" kind="src" path="FullStack Java Devoloper/Advanced Java classes/Injection Queries"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/Injection Queries/another injection query"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/Jdbc connect with MYSQL"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JAVA BEANS/CollegeProject"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/webapps/examples/WEB-INF/classes"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/webapps/examples/WEB-INF/classes"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/webapps/examples/WEB-INF/classes"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/webapps/examples/WEB-INF/classes"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/PreparedStatements in JDBC"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/Retrieving Data from Database"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/webapps/docs/appdev/sample/src"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/webapps/examples/WEB-INF/classes"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/webapps/examples/WEB-INF/classes"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/webapps/firstproject"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/webapps/examples/WEB-INF/classes"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/webapps/fourthproject"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/webapps/examples/WEB-INF/classes"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/webapps/parametersproject"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/webapps/examples/WEB-INF/classes"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/webapps/secondproject"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/webapps/examples/WEB-INF/classes"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/webapps/ThirdProject"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/Applets"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/arrays"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/Arrays,StringTokenizer,calander,date in util/Arrays"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/Arrays,StringTokenizer,calander,date in util/calendar"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/Arrays,StringTokenizer,calander,date in util/Date"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/Arrays,StringTokenizer,calander,date in util/StringTokenizer"/>
+	<classpathentry excluding="Components/textfield,textarea,choice,label/|Components/keylistener adapter anonymous inner classes/|WindowsListener/|LayoutManagers/|Components/" kind="src" path="FullStack Java Devoloper/JavaClasses/AWT"/>
+	<classpathentry excluding="textfield,textarea,choice,label/|keylistener adapter anonymous inner classes/" kind="src" path="FullStack Java Devoloper/JavaClasses/AWT/Components"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/AWT/Components/keylistener adapter anonymous inner classes"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/AWT/Components/textfield,textarea,choice,label"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/AWT/LayoutManagers"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/AWT/WindowsListener"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/classes and objects methods"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/collection framework"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/command line arguments"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/constructors"/>
+	<classpathentry excluding="userdefind exception/" kind="src" path="FullStack Java Devoloper/JavaClasses/ExceptionHandling"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/ExceptionHandling/userdefind exception"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/Expressions"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/Files"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/instanceof"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/Lamba Expressions"/>
+	<classpathentry excluding="Synchronization/" kind="src" path="FullStack Java Devoloper/JavaClasses/MultiThreading"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/MultiThreading/Synchronization"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/packages"/>
+	<classpathentry excluding="StringBuilder/|StringBuffer/" kind="src" path="FullStack Java Devoloper/JavaClasses/Strings"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/Strings/StringBuffer"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/Strings/StringBuilder"/>
+	<classpathentry excluding="JComponents/|JComponents/JTextField JTextArea/|JComponents/JMenu  JRadioButton/" kind="src" path="FullStack Java Devoloper/JavaClasses/Swing"/>
+	<classpathentry excluding="JTextField JTextArea/|JMenu  JRadioButton/" kind="src" path="FullStack Java Devoloper/JavaClasses/Swing/JComponents"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/Swing/JComponents/JMenu  JRadioButton"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/Swing/JComponents/JTextField JTextArea"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/JavaClasses/wrapper"/>
+	<classpathentry kind="src" path="FullStack Java Devoloper/Sping Framework/DAO spring"/>
+	<classpathentry kind="src" path="Gigleaz-Task/Java_Practice"/>
+	<classpathentry kind="src" path="Java8/Lambda/src/main/java"/>
+	<classpathentry kind="src" path="Microservices/Microservices/api-gateway/src/main/java"/>
+	<classpathentry kind="src" path="Microservices/Microservices/api-gateway/src/test/java"/>
+	<classpathentry kind="src" path="Microservices/Microservices/question-service/src/main/java"/>
+	<classpathentry kind="src" path="Microservices/Microservices/question-service/src/test/java"/>
+	<classpathentry kind="src" path="Microservices/Microservices/quiz-service/src/main/java"/>
+	<classpathentry kind="src" path="Microservices/Microservices/quiz-service/src/test/java"/>
+	<classpathentry kind="src" path="Microservices/Microservices/service-registry/src/main/java"/>
+	<classpathentry kind="src" path="Microservices/Microservices/service-registry/src/test/java"/>
+	<classpathentry kind="src" path="Microservices/Monolithic/quizApp-Monolithic/src/main/java"/>
+	<classpathentry kind="src" path="Microservices/Monolithic/quizApp-Monolithic/src/test/java"/>
+	<classpathentry kind="src" path="Microservices/ORDER-AND-SERVICE/api-gateway/src/main/java"/>
+	<classpathentry kind="src" path="Microservices/ORDER-AND-SERVICE/api-gateway/src/test/java"/>
+	<classpathentry kind="src" path="Microservices/ORDER-AND-SERVICE/order-service/src/main/java"/>
+	<classpathentry kind="src" path="Microservices/ORDER-AND-SERVICE/order-service/src/test/java"/>
+	<classpathentry kind="src" path="Microservices/ORDER-AND-SERVICE/payment-service/src/main/java"/>
+	<classpathentry kind="src" path="Microservices/ORDER-AND-SERVICE/payment-service/src/test/java"/>
+	<classpathentry kind="src" path="Microservices/ORDER-AND-SERVICE/service-registry/src/main/java"/>
+	<classpathentry kind="src" path="Microservices/ORDER-AND-SERVICE/service-registry/src/test/java"/>
+	<classpathentry kind="src" path="Microservices/patient-management/billing-service/src/main/java"/>
+	<classpathentry kind="src" path="Microservices/patient-management/billing-service/src/test/java"/>
+	<classpathentry kind="src" path="Microservices/patient-management/billing-service/target/generated-sources/protobuf/grpc-java"/>
+	<classpathentry kind="src" path="Microservices/patient-management/billing-service/target/generated-sources/protobuf/java"/>
+	<classpathentry kind="src" path="Microservices/patient-management/patient-service/src/main/java"/>
+	<classpathentry kind="src" path="Microservices/patient-management/patient-service/src/test/java"/>
+	<classpathentry kind="src" path="Microservices/patient-management/patient-service/target/generated-sources/protobuf/grpc-java"/>
+	<classpathentry kind="src" path="Microservices/patient-management/patient-service/target/generated-sources/protobuf/java"/>
+	<classpathentry kind="src" path="MountBlue-Java-Practice/src"/>
+	<classpathentry kind="src" path="Projects/Automatic-Email-Sender-Hr/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Automatic-Email-Sender-Hr/src/test/java"/>
+	<classpathentry excluding="com/chandu/ctcp/controller/" kind="src" path="Projects/ctcp/src/main/java"/>
+	<classpathentry kind="src" path="Projects/ctcp/src/main/java/com/chandu/ctcp/controller"/>
+	<classpathentry kind="src" path="Projects/ctcp/src/test/java"/>
+	<classpathentry kind="src" path="Projects/demo/src/main/java"/>
+	<classpathentry kind="src" path="Projects/demo/src/test/java"/>
+	<classpathentry kind="src" path="Projects/DemoMVC/src/main/java"/>
+	<classpathentry kind="src" path="Projects/DiaryApp/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Fleet/src/main/java"/>
+	<classpathentry excluding="com/chandu/fleet/controller/" kind="src" path="Projects/Fleet/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Fleet/src/test/java/com/chandu/fleet/controller"/>
+	<classpathentry kind="src" path="Projects/hibernate2/src/main/java"/>
+	<classpathentry kind="src" path="Projects/hibernate2/src/test/java"/>
+	<classpathentry kind="src" path="Projects/hibernate3/src/main/java"/>
+	<classpathentry kind="src" path="Projects/hibernate3/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Javaonfig/src/main/java"/>
+	<classpathentry kind="src" path="Projects/mydiary/myfirstproject/src/main/java"/>
+	<classpathentry kind="src" path="Projects/mydiary/myfirstproject/src/test/java"/>
+	<classpathentry kind="src" path="Projects/mydiary/springhibernate/src/main/java"/>
+	<classpathentry kind="src" path="Projects/mydiary/springhibernate/src/test/java"/>
+	<classpathentry kind="src" path="Projects/mydiary/springjdbc/src/main/java"/>
+	<classpathentry kind="src" path="Projects/mydiary/springjdbc/src/test/java"/>
+	<classpathentry kind="src" path="Projects/mydiary/src/main/java"/>
+	<classpathentry kind="src" path="Projects/mydiary/src/test/java"/>
+	<classpathentry kind="src" path="Projects/mydiary-springboot/src/main/java"/>
+	<classpathentry kind="src" path="Projects/mydiary-springboot/src/test/java"/>
+	<classpathentry kind="src" path="Projects/myfirstproject/src/main/java"/>
+	<classpathentry kind="src" path="Projects/myfirstproject/src/test/java"/>
+	<classpathentry kind="src" path="Projects/mysecondproject/src/main/java"/>
+	<classpathentry kind="src" path="Projects/mysecondproject/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Practice1/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Practice1/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Reg-Log/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Rest-api-application/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Rest-api-application/src/test/java"/>
+	<classpathentry kind="src" path="Projects/RoomMates_API/src/main/java"/>
+	<classpathentry kind="src" path="Projects/RoomMates_API/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Selenium/MyOnlineStore/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Selenium/MyOnlineStore/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Selenium/TestSelenium/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Selenium/TestSelenium/src/test/java"/>
+	<classpathentry kind="src" path="Projects/springhibernate/src/main/java"/>
+	<classpathentry kind="src" path="Projects/springhibernate/src/test/java"/>
+	<classpathentry kind="src" path="Projects/springjdbc/src/main/java"/>
+	<classpathentry kind="src" path="Projects/springjdbc/src/test/java"/>
+	<classpathentry kind="src" path="Projects/SpringMvc/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Docker/springboot-docker/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Docker/springboot-docker/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Hibernate/forHibernate/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Hibernate/forHibernate/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/JDBC_PostgresSql/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Junit/Junit-01/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Junit/Junit-01/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Maven/Getting_Dependencies/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Practice/Students/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/ServletEx/HelloServlet/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/ServletEx/HelloServlet/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Speingboot-rest/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Speingboot-rest/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Spring/forSpring/Sping1/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Spring/forSpring/Sping1/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Spring/forSpringboot/spring1/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Spring/forSpringboot/spring1/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Spring/SpringJDBC/SpringJDBC_Ex/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Spring/SpringJDBC/SpringJDBC_Ex/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/SpringBoot-OAuth/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/SpringBoot-OAuth/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/springBootWeb1/SpringBootWeb1/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/springBootWeb1/SpringBootWeb1/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Spring-data-jpa-orm/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Spring-data-jpa-orm/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Spring-data-rest-demo/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Spring-data-rest-demo/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/SpringMvcDemo/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Spring-Security-demo/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Spring-Security-demo/src/test/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Spring-Security-JWT-demo/src/main/java"/>
+	<classpathentry kind="src" path="Projects/Telusko/Spring-Security-JWT-demo/src/test/java"/>
+	<classpathentry kind="src" path="Projects/untitled/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/10 Spring Data Rest/10.2 Creating A Data Rest Project/spring-data-rest-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/10 Spring Data Rest/10.2 Creating A Data Rest Project/spring-data-rest-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/10 Spring Data Rest/10.3 Running The Project/spring-data-rest-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/10 Spring Data Rest/10.3 Running The Project/spring-data-rest-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/10 Spring Data Rest/10.4 Update And Delete/spring-data-rest-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/10 Spring Data Rest/10.4 Update And Delete/spring-data-rest-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/11 Spring AOP/11.2 Logging The Calls/spring-boot-rest/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/11 Spring AOP/11.2 Logging The Calls/spring-boot-rest/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/11 Spring AOP/11.4 Before Advice/spring-boot-rest/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/11 Spring AOP/11.4 Before Advice/spring-boot-rest/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/11 Spring AOP/11.5 Joinpoint/spring-boot-rest/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/11 Spring AOP/11.5 Joinpoint/spring-boot-rest/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/11 Spring AOP/11.6 Afer Advice/spring-boot-rest/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/11 Spring AOP/11.6 Afer Advice/spring-boot-rest/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/11 Spring AOP/11.7 Performance Monitoring Using Around Advice/spring-boot-rest/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/11 Spring AOP/11.7 Performance Monitoring Using Around Advice/spring-boot-rest/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/11 Spring AOP/11.8 Validating The Input Using Around Advice/spring-boot-rest/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/11 Spring AOP/11.8 Validating The Input Using Around Advice/spring-boot-rest/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.10 Error Without Csrf Token/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.10 Error Without Csrf Token/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.11 Sending Csrf Token/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.11 Sending Csrf Token/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.13 Security Configuration/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.13 Security Configuration/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.14 Disabling Csrf Token/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.14 Disabling Csrf Token/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.15 Without Lambda/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.15 Without Lambda/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.17 Working With Multiple Users/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.17 Working With Multiple Users/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.18 Creating User Table And Db Properties/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.18 Creating User Table And Db Properties/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.19 Authenticationprovider/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.19 Authenticationprovider/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.20 Creating A Userdetailsservice/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.20 Creating A Userdetailsservice/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.21 User Repository/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.21 User Repository/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.22 Userdetails And Userprincipal/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.22 Userdetails And Userprincipal/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.25 User Registration/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.25 User Registration/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.26 Bcrypt Encoding For User Registration/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.26 Bcrypt Encoding For User Registration/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.27 Setting Password Encoder/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.27 Setting Password Encoder/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.3 Creating A Spring Security Project/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.3 Creating A Spring Security Project/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.4 Default Login Form/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.4 Default Login Form/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.6 Session Id/spring-sec-demo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.6 Session Id/spring-sec-demo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.7 Setting Username And Password/spring-sec-demo4/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/12 Spring security/12.7 Setting Username And Password/spring-sec-demo4/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/13 Securing Job app/13.1 Plan To Secure Job App Project/spring-boot-rest/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/13 Securing Job app/13.1 Plan To Secure Job App Project/spring-boot-rest/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/13 Securing Job app/13.3 Adding Security Configuration/spring-boot-rest/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/13 Securing Job app/13.3 Adding Security Configuration/spring-boot-rest/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/13 Securing Job app/13.4 Job App Is Secure Now/spring-boot-rest/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/13 Securing Job app/13.4 Job App Is Secure Now/spring-boot-rest/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/14.1 JWT/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/14.1 JWT/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/14.2 OAuth2/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/14.2 OAuth2/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/1 Getting Started with Spring/1.7 First Spring Boot App/SpringBootFirst/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/1 Getting Started with Spring/1.7 First Spring Boot App/SpringBootFirst/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/1 Getting Started with Spring/1.8 Di Using Spring Boot/SpringBootFirst/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/1 Getting Started with Spring/1.8 Di Using Spring Boot/SpringBootFirst/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/1 Getting Started with Spring/1.9 Autowiring In Spring Boot/SpringBootFirst/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/1 Getting Started with Spring/1.9 Autowiring In Spring Boot/SpringBootFirst/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.10 Primary Bean/Spring1/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.10 Primary Bean/Spring1/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.11 Lazy Init Bean/Spring1/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.11 Lazy Init Bean/Spring1/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.12 Getbean By Type/Spring1/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.12 Getbean By Type/Spring1/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.13 InnerBean/Spring1/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.13 InnerBean/Spring1/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.1 Spring 1st Project/Spring1/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.1 Spring 1st Project/Spring1/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.2 Spring Bean Xml Config/Spring1/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.2 Spring Bean Xml Config/Spring1/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.3 Object Creation/Spring1/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.3 Object Creation/Spring1/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.4 Scopes/Spring1/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.4 Scopes/Spring1/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.5 Setter Injection/Spring1/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.5 Setter Injection/Spring1/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.6 Ref Attribute/Spring1/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.6 Ref Attribute/Spring1/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.7 Constructor Injection/Spring1/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.7 Constructor Injection/Spring1/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.8 Creating Interface/Spring1/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.8 Creating Interface/Spring1/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.9 Autowiring/Spring1/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/2 Exploring Spring Framework/2.9 Autowiring/Spring1/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.1 Java Based Config/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.1 Java Based Config/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.2 Bean Name/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.2 Bean Name/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.3 Scope Annotation/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.3 Scope Annotation/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.4 Autowire/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.4 Autowire/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.5 Primary And Qualifier/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.5 Primary And Qualifier/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.6 Component Stereotype Annotation/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.6 Component Stereotype Annotation/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.7 Autowire Field, Constructor, Setter/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.7 Autowire Field, Constructor, Setter/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.8 Primary Annotation/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.8 Primary Annotation/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.9 Scope And Value Annotation/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/3.1 Working with Java-Based Config (3.1 to 3.9)/3.9 Scope And Value Annotation/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/3.2 Moving to Spring Boot (3.10 to 3.14)/3.11 Using Annotations In Spring Boot/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/3.2 Moving to Spring Boot (3.10 to 3.14)/3.11 Using Annotations In Spring Boot/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/3.2 Moving to Spring Boot (3.10 to 3.14)/3.13 Service Class/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/3.2 Moving to Spring Boot (3.10 to 3.14)/3.13 Service Class/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/3.2 Moving to Spring Boot (3.10 to 3.14)/3.14 Repository Layer/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/3.2 Moving to Spring Boot (3.10 to 3.14)/3.14 Repository Layer/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/4 Spring JDBC/4.2 Creating A Spring Jdbc Project/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/4 Spring JDBC/4.2 Creating A Spring Jdbc Project/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/4 Spring JDBC/4.3 Student Service And Repo/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/4 Spring JDBC/4.3 Student Service And Repo/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/4 Spring JDBC/4.4 Jdbctemplate/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/4 Spring JDBC/4.4 Jdbctemplate/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/4 Spring JDBC/4.5 Schema And Data Files/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/4 Spring JDBC/4.5 Schema And Data Files/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/4 Spring JDBC/4.6 Rowmapper/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/4 Spring JDBC/4.6 Rowmapper/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/4 Spring JDBC/4.7 Spring Jdbc Postgres/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/4 Spring JDBC/4.7 Spring Jdbc Postgres/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.10 RequestMapping/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.10 RequestMapping/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.11 Sending data to Controller/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.11 Sending data to Controller/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.12 Accepting Data the servlet way/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.12 Accepting Data the servlet way/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.13 Display Data on Result Page/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.13 Display Data on Result Page/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.14 RequestParam/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.14 RequestParam/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.15 Model Object/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.15 Model Object/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.16 Setting Prefix and Suffix/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.16 Setting Prefix and Suffix/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.17 ModelAndView/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.17 ModelAndView/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.18 Need for ModelAttribute/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.18 Need for ModelAttribute/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.19 Using ModelAttribute/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.19 Using ModelAttribute/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.2 Creating A Servlet Project 1/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.2 Creating A Servlet Project 1/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.3 Running Tomcat/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.3 Running Tomcat/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.4 Servlet Mapping/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.4 Servlet Mapping/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.5 Responding To The Client/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.5 Responding To The Client/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.7 Creating a Spring Boot Web App Project/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.7 Creating a Spring Boot Web App Project/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.8 Creating a JSP Page/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.8 Creating a JSP Page/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.9 Creating a Controller/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/5 Spring  Boot Web/5.9 Creating a Controller/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/6 Exploring Web MVC without Spring Boot/6.2 Creating a Spring MVC Project_1/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/6 Exploring Web MVC without Spring Boot/6.3 Running Tomcat in Eclipse/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/6 Exploring Web MVC without Spring Boot/6.4 Dispatcher Servlet/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/6 Exploring Web MVC without Spring Boot/6.5 Configuring the DispatcherServlet/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/6 Exploring Web MVC without Spring Boot/6.6 Internal Resource View Resolver/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/7 JobApp-Project/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/7 JobApp-Project/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/8 REST using Spring Boot/8.10 Put and Delete Mapping/spring-boot-rest4/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/8 REST using Spring Boot/8.10 Put and Delete Mapping/spring-boot-rest4/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/8 REST using Spring Boot/8.6 Creating a Rest Controller/spring-boot-rest/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/8 REST using Spring Boot/8.6 Creating a Rest Controller/spring-boot-rest/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/8 REST using Spring Boot/8.8 PathVariable/spring-boot-rest/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/8 REST using Spring Boot/8.8 PathVariable/spring-boot-rest/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/8 REST using Spring Boot/8.9 Sending Data and RequestBody/spring-boot-rest/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/8 REST using Spring Boot/8.9 Sending Data and RequestBody/spring-boot-rest/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.10 Search By Keyword/spring-boot-rest/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.10 Search By Keyword/spring-boot-rest/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.3 Creating Table And Inserting Data/spring-data-jpa-ex/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.3 Creating Table And Inserting Data/spring-data-jpa-ex/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.4 Findall/spring-data-jpa-ex/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.4 Findall/spring-data-jpa-ex/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.5 Findbyid/spring-data-jpa-ex3/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.5 Findbyid/spring-data-jpa-ex3/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.6 Query Dsl/spring-data-jpa-ex/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.6 Query Dsl/spring-data-jpa-ex/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.7 Update And Delete/spring-data-jpa-ex/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.7 Update And Delete/spring-data-jpa-ex/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.8 Jpa In Job App/spring-boot-rest/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.8 Jpa In Job App/spring-boot-rest/src/test/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.9 Loading Data And Entity/spring-boot-rest6/src/main/java"/>
+	<classpathentry kind="src" path="spring6-course/9 Spring DataJPA/9.9 Loading Data And Entity/spring-boot-rest6/src/test/java"/>
+	<classpathentry kind="src" path="spring-boot-course-main/FirstSpring/src/main/java"/>
+	<classpathentry kind="src" path="spring-boot-course-main/FirstSpring/src/test/java"/>
+	<classpathentry kind="src" path="spring-boot-course-main/media/src/main/java"/>
+	<classpathentry kind="src" path="spring-boot-course-main/media/src/test/java"/>
+	<classpathentry kind="src" path="spring-boot-course-main/sb-ecom/src/main/java"/>
+	<classpathentry kind="src" path="spring-boot-course-main/sb-ecom/src/test/java"/>
+	<classpathentry kind="src" path="spring-boot-course-main/SpringExample/src/main/java"/>
+	<classpathentry kind="src" path="Spring-Cloud/SpringCloud-Eureka/Amazon-server/src/main/java"/>
+	<classpathentry kind="src" path="Spring-Cloud/SpringCloud-Eureka/Amazon-server/src/test/java"/>
+	<classpathentry kind="src" path="Spring-Cloud/SpringCloud-Eureka/Amazon-Shopping/src/main/java"/>
+	<classpathentry kind="src" path="Spring-Cloud/SpringCloud-Eureka/Amazon-Shopping/src/test/java"/>
+	<classpathentry kind="src" path="Spring-Cloud/SpringCloud-Eureka/Payment-Service/src/main/java"/>
+	<classpathentry kind="src" path="Spring-Cloud/SpringCloud-Eureka/Payment-Service/src/test/java"/>
+	<classpathentry kind="lib" path="4.DevOps/AWS/springboot_dynamodb1/target/springboot_dynamodb1-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="4.DevOps/AWS/springboot-aws-ec2/target/springboot-aws-ec2.jar"/>
+	<classpathentry kind="lib" path="4.DevOps/AWS/springboot-aws-rds/target/springboot-aws-rds-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="4.DevOps/AWS/springboot-docker-aws-ecs/target/springboot-docker-aws-ecs-codebuild.jar"/>
+	<classpathentry kind="lib" path="4.DevOps/AWS/springboot-docker-aws-ecs-codebuild/target/springboot-docker-aws-ecs-codebuild.jar"/>
+	<classpathentry kind="lib" path="4.DevOps/Docker/RoomMates/target/RoomMate.jar"/>
+	<classpathentry kind="lib" path="4.DevOps/K8S/forkuberneets/forkuberneets/target/forkubernetees.jar"/>
+	<classpathentry kind="lib" path="4.DevOps/K8S/springboot-crud-k8s-example/target/springboot-crud-k8s-example.jar"/>
+	<classpathentry kind="lib" path="DBSLoadApp/target/DBSLoadApp-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/bin/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/catalina-ssi.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/ecj-4.20.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-i18n-cs.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-i18n-de.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-i18n-pt-BR.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP ActionTags/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/bin/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/catalina-ssi.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/ecj-4.20.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-i18n-cs.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-i18n-de.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-i18n-pt-BR.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Coustom tags/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/bin/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/catalina-ssi.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/ecj-4.20.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-i18n-cs.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-i18n-de.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-i18n-pt-BR.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/JSP Elements/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/bin/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/catalina-ssi.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/ecj-4.20.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-i18n-cs.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-i18n-de.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-i18n-pt-BR.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/JSP(java server pages)/State Management in web apps/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/bin/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/catalina-ssi.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/ecj-4.20.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-i18n-cs.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-i18n-de.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-i18n-pt-BR.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/bin/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/catalina-ssi.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/ecj-4.20.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-cs.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-de.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-pt-BR.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/First Servlet Project/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/bin/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/catalina-ssi.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/ecj-4.20.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-cs.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-de.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-pt-BR.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Fourth servlet project/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/bin/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/catalina-ssi.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/ecj-4.20.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-i18n-cs.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-i18n-de.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-i18n-pt-BR.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Parameters/parameters - servletConfig/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/bin/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/catalina-ssi.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/ecj-4.20.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-cs.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-de.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-pt-BR.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/second servlet project/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/bin/commons-daemon.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/bin/tomcat-juli.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/catalina-ssi.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/catalina-storeconfig.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/ecj-4.20.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/jaspic-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-cs.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-de.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-ko.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-pt-BR.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-ru.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-i18n-zh-CN.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-jni.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-util-scan.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/tomcat-websocket.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/lib/websocket-api.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="lib" path="FullStack Java Devoloper/Advanced Java classes/SERVLETS/Third Servlet Project/apache-tomcat-9.0.67/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar"/>
+	<classpathentry kind="lib" path="Microservices/Microservices/quiz-service/target/quiz-service-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="Projects/Automatic-Email-Sender-Hr/target/emailsender.jar"/>
+	<classpathentry kind="lib" path="Projects/demo/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="Projects/mydiary/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="Projects/mydiary-springboot/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="Projects/Selenium/selenium-server-4.8.3.jar"/>
+	<classpathentry kind="lib" path="Projects/Telusko/Docker/springboot-docker/target/springboot-docker-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="Projects/Telusko/springBootWeb1/SpringBootWeb1/target/SpringBootWeb1-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="spring6-course/10 Spring Data Rest/10.2 Creating A Data Rest Project/spring-data-rest-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/10 Spring Data Rest/10.3 Running The Project/spring-data-rest-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/10 Spring Data Rest/10.4 Update And Delete/spring-data-rest-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/11 Spring AOP/11.2 Logging The Calls/spring-boot-rest/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/11 Spring AOP/11.4 Before Advice/spring-boot-rest/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/11 Spring AOP/11.5 Joinpoint/spring-boot-rest/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/11 Spring AOP/11.6 Afer Advice/spring-boot-rest/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/11 Spring AOP/11.7 Performance Monitoring Using Around Advice/spring-boot-rest/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/11 Spring AOP/11.8 Validating The Input Using Around Advice/spring-boot-rest/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.10 Error Without Csrf Token/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.11 Sending Csrf Token/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.13 Security Configuration/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.14 Disabling Csrf Token/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.15 Without Lambda/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.17 Working With Multiple Users/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.18 Creating User Table And Db Properties/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.19 Authenticationprovider/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.20 Creating A Userdetailsservice/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.21 User Repository/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.22 Userdetails And Userprincipal/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.25 User Registration/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.26 Bcrypt Encoding For User Registration/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.27 Setting Password Encoder/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.3 Creating A Spring Security Project/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.4 Default Login Form/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.6 Session Id/spring-sec-demo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/12 Spring security/12.7 Setting Username And Password/spring-sec-demo4/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/13 Securing Job app/13.1 Plan To Secure Job App Project/spring-boot-rest/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/13 Securing Job app/13.3 Adding Security Configuration/spring-boot-rest/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/13 Securing Job app/13.4 Job App Is Secure Now/spring-boot-rest/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/14.1 JWT/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/14.2 OAuth2/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/1 Getting Started with Spring/1.7 First Spring Boot App/SpringBootFirst/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/1 Getting Started with Spring/1.8 Di Using Spring Boot/SpringBootFirst/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/1 Getting Started with Spring/1.9 Autowiring In Spring Boot/SpringBootFirst/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/3.2 Moving to Spring Boot (3.10 to 3.14)/3.11 Using Annotations In Spring Boot/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/3.2 Moving to Spring Boot (3.10 to 3.14)/3.13 Service Class/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/3.2 Moving to Spring Boot (3.10 to 3.14)/3.14 Repository Layer/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/4 Spring JDBC/4.2 Creating A Spring Jdbc Project/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/4 Spring JDBC/4.3 Student Service And Repo/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/4 Spring JDBC/4.4 Jdbctemplate/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/4 Spring JDBC/4.5 Schema And Data Files/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/4 Spring JDBC/4.6 Rowmapper/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/4 Spring JDBC/4.7 Spring Jdbc Postgres/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/5 Spring  Boot Web/5.10 RequestMapping/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/5 Spring  Boot Web/5.11 Sending data to Controller/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/5 Spring  Boot Web/5.12 Accepting Data the servlet way/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/5 Spring  Boot Web/5.13 Display Data on Result Page/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/5 Spring  Boot Web/5.14 RequestParam/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/5 Spring  Boot Web/5.15 Model Object/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/5 Spring  Boot Web/5.16 Setting Prefix and Suffix/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/5 Spring  Boot Web/5.17 ModelAndView/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/5 Spring  Boot Web/5.18 Need for ModelAttribute/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/5 Spring  Boot Web/5.19 Using ModelAttribute/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/5 Spring  Boot Web/5.7 Creating a Spring Boot Web App Project/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/5 Spring  Boot Web/5.8 Creating a JSP Page/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/5 Spring  Boot Web/5.9 Creating a Controller/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/7 JobApp-Project/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/8 REST using Spring Boot/8.10 Put and Delete Mapping/spring-boot-rest4/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/8 REST using Spring Boot/8.6 Creating a Rest Controller/spring-boot-rest/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/8 REST using Spring Boot/8.8 PathVariable/spring-boot-rest/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/8 REST using Spring Boot/8.9 Sending Data and RequestBody/spring-boot-rest/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/9 Spring DataJPA/9.10 Search By Keyword/spring-boot-rest/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/9 Spring DataJPA/9.3 Creating Table And Inserting Data/spring-data-jpa-ex/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/9 Spring DataJPA/9.4 Findall/spring-data-jpa-ex/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/9 Spring DataJPA/9.5 Findbyid/spring-data-jpa-ex3/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/9 Spring DataJPA/9.6 Query Dsl/spring-data-jpa-ex/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/9 Spring DataJPA/9.7 Update And Delete/spring-data-jpa-ex/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/9 Spring DataJPA/9.8 Jpa In Job App/spring-boot-rest/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring6-course/9 Spring DataJPA/9.9 Loading Data And Entity/spring-boot-rest6/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring-boot-course-main/media/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="spring-boot-course-main/sb-ecom/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="output" path="4.DevOps/AWS/springboot-aws-ec2/target/classes"/>
+</classpath>

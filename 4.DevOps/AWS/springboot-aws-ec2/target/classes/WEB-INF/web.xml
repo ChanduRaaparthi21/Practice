@@ -1,0 +1,13 @@
+<web-app>
+<servlet>
+        <servlet-name>spl</servlet-name>
+        <servlet-class>firstservlet</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+        <servlet-name>spl</servlet-name>
+        <url-pattern>/fs</url-pattern>
+</servlet-mapping>
+
+</web-app>

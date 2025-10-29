@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+ 
+   <context:annotation-config />
+   
+   <bean name="customer" class="com.chandu.setterinjection.myfirstproject.Customer">
+   
+    <constructor-arg value="chandu" type="java.lang.String"/>
+   
+   <constructor-arg value="99999999" type="java.lang.String"/>    
+        <constructor-arg>
+         <props>
+           <prop key="city">nuzvid</prop>
+         </props>
+       </constructor-arg>     
+   </bean>
+ 
+ 
+ <bean name="customer1" class="com.chandu.setterinjection.myfirstproject.Customer">
+   
+    <constructor-arg value="sai" type="java.lang.String"/>
+   
+   <constructor-arg value="88888888" type="java.lang.String"/>    
+        <constructor-arg>
+         <props>
+           <prop key="city">hyd</prop>
+         </props>
+       </constructor-arg>     
+   </bean>
+
+<bean name="order" class="com.chandu.setterinjection.myfirstproject.Order" />
+     
+ 
+
+
+</beans>
