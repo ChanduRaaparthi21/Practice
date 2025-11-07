@@ -1,0 +1,141 @@
+2025-11-06T22:02:02.706+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] c.s.S.SpringSecurityApplication          : Starting SpringSecurityApplication using Java 17.0.11 with PID 21168 (C:\Users\chand\Desktop\Practice\Telsuko\SpringSecurity\target\classes started by chand in C:\Users\chand\Desktop\Practice\Telsuko\SpringSecurity)
+2025-11-06T22:02:02.711+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] c.s.S.SpringSecurityApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T22:02:02.791+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-06T22:02:02.791+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-06T22:02:04.028+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-06T22:02:04.141+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 2 JPA repository interfaces.
+2025-11-06T22:02:05.245+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-06T22:02:05.267+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-06T22:02:05.268+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T22:02:05.360+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-06T22:02:05.361+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2568 ms
+2025-11-06T22:02:05.694+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-06T22:02:05.811+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-06T22:02:05.876+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-06T22:02:06.395+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-06T22:02:06.453+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-06T22:02:07.037+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b1c01aa
+2025-11-06T22:02:07.041+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-06T22:02:07.146+05:30  WARN 21168 --- [SpringSecurity] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-06T22:02:07.149+05:30  WARN 21168 --- [SpringSecurity] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-06T22:02:07.186+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-06T22:02:08.778+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-06T22:02:08.904+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-06T22:02:09.468+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authProvider
+2025-11-06T22:02:09.469+05:30  WARN 21168 --- [SpringSecurity] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-11-06T22:02:09.600+05:30  WARN 21168 --- [SpringSecurity] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-06T22:02:10.536+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-06T22:02:10.598+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T22:02:10.613+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] c.s.S.SpringSecurityApplication          : Started SpringSecurityApplication in 8.783 seconds (process running for 10.07)
+2025-11-06T22:03:06.948+05:30  INFO 21168 --- [SpringSecurity] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-06T22:03:06.951+05:30  INFO 21168 --- [SpringSecurity] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-06T22:03:06.953+05:30  INFO 21168 --- [SpringSecurity] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-06T22:03:07.199+05:30  INFO 21168 --- [SpringSecurity] [http-nio-8080-exec-1] c.s.SpringSecurity.service.UserService   : initiate the User
+2025-11-06T22:03:07.826+05:30  INFO 21168 --- [SpringSecurity] [http-nio-8080-exec-1] c.s.SpringSecurity.service.UserService   : Register User pandu
+2025-11-06T22:03:07.826+05:30  INFO 21168 --- [SpringSecurity] [http-nio-8080-exec-1] c.s.SpringSecurity.service.UserService   : User Registered Successfully
+2025-11-06T22:07:34.299+05:30  INFO 21168 --- [SpringSecurity] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-11-06T22:07:34.300+05:30  INFO 21168 --- [SpringSecurity] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-06T22:07:34.470+05:30  INFO 21168 --- [SpringSecurity] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-06T22:07:34.480+05:30  INFO 21168 --- [SpringSecurity] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-06T22:07:34.485+05:30  INFO 21168 --- [SpringSecurity] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-06T22:07:34.508+05:30  INFO 21168 --- [SpringSecurity] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-06T22:07:34.658+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] c.s.S.SpringSecurityApplication          : Starting SpringSecurityApplication using Java 17.0.11 with PID 21168 (C:\Users\chand\Desktop\Practice\Telsuko\SpringSecurity\target\classes started by chand in C:\Users\chand\Desktop\Practice\Telsuko\SpringSecurity)
+2025-11-06T22:07:34.658+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] c.s.S.SpringSecurityApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T22:07:35.116+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-06T22:07:35.151+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2025-11-06T22:07:35.409+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-06T22:07:35.417+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-06T22:07:35.417+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T22:07:35.464+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-06T22:07:35.464+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 801 ms
+2025-11-06T22:07:35.569+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-06T22:07:35.574+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-06T22:07:35.600+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-06T22:07:35.602+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-11-06T22:07:35.642+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c642c46
+2025-11-06T22:07:35.642+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-11-06T22:07:35.642+05:30  WARN 21168 --- [SpringSecurity] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-06T22:07:35.642+05:30  WARN 21168 --- [SpringSecurity] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-06T22:07:35.642+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-06T22:07:35.736+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-06T22:07:35.778+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-06T22:07:35.796+05:30  WARN 21168 --- [SpringSecurity] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'service': No qualifying bean of type 'com.secure.SpringSecurity.service.UserService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2025-11-06T22:07:35.796+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-06T22:07:35.796+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-11-06T22:07:35.816+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-11-06T22:07:35.817+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-11-06T22:07:35.829+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-06T22:07:35.887+05:30 ERROR 21168 --- [SpringSecurity] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field service in com.secure.SpringSecurity.controller.UserController required a bean of type 'com.secure.SpringSecurity.service.UserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.secure.SpringSecurity.service.UserService' in your configuration.
+
+2025-11-06T22:07:37.369+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] c.s.S.SpringSecurityApplication          : Starting SpringSecurityApplication using Java 17.0.11 with PID 21168 (C:\Users\chand\Desktop\Practice\Telsuko\SpringSecurity\target\classes started by chand in C:\Users\chand\Desktop\Practice\Telsuko\SpringSecurity)
+2025-11-06T22:07:37.369+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] c.s.S.SpringSecurityApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T22:07:37.700+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-06T22:07:37.723+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2025-11-06T22:07:37.855+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-06T22:07:37.855+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-06T22:07:37.855+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T22:07:37.898+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-11-06T22:07:37.898+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 515 ms
+2025-11-06T22:07:37.959+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-06T22:07:37.962+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-06T22:07:37.985+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-06T22:07:37.985+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-11-06T22:07:38.010+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2708b102
+2025-11-06T22:07:38.010+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-11-06T22:07:38.013+05:30  WARN 21168 --- [SpringSecurity] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-06T22:07:38.013+05:30  WARN 21168 --- [SpringSecurity] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-11-06T22:07:38.013+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-06T22:07:38.085+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-06T22:07:38.120+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-06T22:07:38.231+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authProvider
+2025-11-06T22:07:38.231+05:30  WARN 21168 --- [SpringSecurity] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-11-06T22:07:38.272+05:30  WARN 21168 --- [SpringSecurity] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-06T22:07:38.509+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-06T22:07:38.527+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T22:07:38.530+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] c.s.S.SpringSecurityApplication          : Started SpringSecurityApplication in 1.189 seconds (process running for 337.992)
+2025-11-06T22:07:38.536+05:30  INFO 21168 --- [SpringSecurity] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-11-06T22:09:06.926+05:30  INFO 21168 --- [SpringSecurity] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-11-06T22:09:06.926+05:30  INFO 21168 --- [SpringSecurity] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-06T22:09:07.094+05:30  INFO 21168 --- [SpringSecurity] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-06T22:09:07.098+05:30  INFO 21168 --- [SpringSecurity] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-06T22:09:07.098+05:30  INFO 21168 --- [SpringSecurity] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-11-06T22:09:07.110+05:30  INFO 21168 --- [SpringSecurity] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.

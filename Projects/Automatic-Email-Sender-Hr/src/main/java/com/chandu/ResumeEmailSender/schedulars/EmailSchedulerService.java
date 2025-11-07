@@ -44,13 +44,12 @@ public class EmailSchedulerService {
         }
     }
 
-    // Schedule to run every 2 minutes
-    @Scheduled(fixedDelayString = "${email.send.interval:120000}")
+ // Schedule to run every 5 minutes
+    @Scheduled(fixedDelayString = "${email.send.interval:300000}")
     public void sendNextBatchOfEmails() {
         if (!initialized) {
             initialize();
         }
-
         if (hrDetailsList == null || hrDetailsList.isEmpty()) {
             logger.warn("No HR details found. Stopping scheduler.");
             shutdownApplication();
@@ -80,15 +79,20 @@ public class EmailSchedulerService {
             return;
         }
 
-        String subject = "Java Backend Developer | Opportunities at " + hrDetails.getCompanyName();
+        String subject = "Application for Java Backend Developer | " + hrDetails.getCompanyName() + " | Chandu Raparthi";
+
 
         String body = "Dear " + hrDetails.getHrName() + ",\n\n" +
-                "I hope you're doing well. I'm Chandu Raparthi, an Associate Java Developer at Edgerock Software Solutions, looking for Java Backend opportunities at " + hrDetails.getCompanyName() + ".\n\n" +
-                "I have 2.3 years of experience in Java, Spring Boot, Hibernate, and Microservices, specializing in REST APIs, PostgreSQL/MySQL optimization, and security (JWT, OAuth2).\n\n" +
-                "Please find my resume attached. Looking forward to your response.\n\n" +
-                "Best regards,\n" +
-                "Chandu Raparthi\n" +
-                "+91 94523 01058 | chanduraparthi21@gmail.com";
+        	    "I hope this email finds you well.\n\n" +
+        	    "I'm Chandu Raparthi, a Java Backend Developer with 3 years of experience building secure and scalable applications using Java, Spring Boot, Hibernate, and REST APIs.\n\n" +
+        	    "Currently, I’m working at Cybrowse Digital Solutions Pvt. Ltd., Hyderabad, and exploring backend opportunities at " + hrDetails.getCompanyName() + ". " +
+        	    "My notice period is 7 days, and I’m available to join immediately after that.\n\n" +
+        	    "Please find my resume attached for your reference.\n\n" +
+        	    "Best regards,\n" +
+        	    "Chandu Raparthi\n" +
+        	    "+91 9452301058\n" +
+        	    "raaparthichandu@gmail.com\n";
+
 
         // Send email with attachment
         try {
@@ -98,6 +102,7 @@ public class EmailSchedulerService {
             logger.error("Failed to send email to {}: {}", hrEmail, e.getMessage());
         }
     }
+
 
     private void shutdownApplication() {
         logger.info("Email sending process completed. Shutting down application...");
